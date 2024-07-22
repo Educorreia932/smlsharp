@@ -1,0 +1,29 @@
+# Object files
+*.o
+*.so
+
+# Binary files
+minismlsharp
+src/smlformat
+src/ml-lex/smllex
+src/ml-yacc/smlyacc
+tests/driver/dotest
+libsmlsharp.a
+
+# Generated files
+config.*
+filemap
+stamp-h
+Makefile
+iml.*
+interface.*
+Absyn*
+
+RELEASE
+depend.mk
+files.mk
+src/compiler/smlsharp
+precompiled/x86_64.bc
+*.ppg.sml
+
+src/config/main/*.sml
